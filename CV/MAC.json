@@ -1,0 +1,959 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
+  "settings": {
+    "language": "EN",
+    "MACVersion": "0.5"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Dídac",
+      "surnames": "Ríos Meseguer",
+      "title": "Full-stack Developer en Freshly Cosmetics",
+      "description": "## 🌊 Hi there\n\nPassionate about leveraging technology for positive change, I am a self-taught programmer with a background in environmental health. My journey from environmental studies to software development fuels my commitment to creating impactful solutions that benefit individuals and society at large.\n\n## 👨‍💻 Coding Philosophy\n\nMy coding philosophy revolves around valuing people and their collaborative efforts over individual prowess. I firmly believe that effective teamwork and seamless collaboration are the keystones to exceptional software development. Embracing Extreme Programming (XP) principles has been integral to my approach. These values not only foster a conducive environment for collective problem-solving but also ensure the delivery of high-quality, maintainable code and customer value. With a focus on fostering a culture of collaboration and shared responsibility, I try to integrate Lean and XP concepts to prioritize teamwork and people-centric and technical development practices in my coding endeavors.\n\n## 🔭 Current Role\n\nI currently lead a development team at Freshly Cosmetics on an internal project focused on streamlining operations within our logistics center. I initiated a comprehensive refactoring of the codebase, introducing unit and integration tests, and restructuring the architecture with a Domain-Driven Design (DDD) approach and hexagonal architecture principles using both tactical and technical patterns. This has enhanced both the performance and maintainability of the project, enabling faster and more reliable feature releases. I've also implemented Test-Driven Development (TDD) practices to improve code quality and foster team ownership of the code. Additionally, I introduced Docker for consistent development environments, automated deployments to streamline release cycles, and integrated Amazon SQS for efficient pub/sub messaging within our system. These improvements have significantly boosted operational efficiency, supporting our logistics team with a robust, scalable solution.",
+      "avatar": {
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/12/08/deb259b3-d254-4109-9b4d-f63f5176e6f3_211009.jpeg",
+        "alt": "211009.jpeg"
+      },
+      "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJXZ5tuORQoRIR0s7eSdKQIS4)",
+        "country": "España",
+        "region": "Cataluña",
+        "municipality": "Reus"
+      }
+    },
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://linkedin.com/in/didacrios"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/didacrios"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Freshly Cosmetics",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/01/01/c4e01e03-82b2-471a-9727-07e79b0dc999_linkedin-photo-11901.linkedin-photo-11901",
+            "alt": "24/01/01/c4e01e03-82b2-471a-9727-07e79b0dc999_linkedin-photo-11901.linkedin-photo-11901"
+          },
+          "URL": "https://freshlycosmetics.com"
+        },
+        "roles": [
+          {
+            "name": "Full Stack Developer",
+            "startDate": "2019-03-01",
+            "challenges": [
+              {
+                "description": "Over six years, I played a key role in scaling the development team, leading technical projects, and driving process improvements within a dynamic and evolving e-commerce environment.\n\nIn **2019**, I joined a small team as a fullstack developer but soon tasked with defining the foundations, methodologies, and processes necessary to scale the development team. As the team grew from 4 to 6 developers, I took on dual responsibilities as a developer and technical leader, guiding the team in Agile practices and acting as a Scrum Master. This foundation set the stage for the company's broader expansion to 22 developers.\n\nIn the technical aspect I lead a new specific product in our ecommerce platform where customers could set up recurring purchases of their favorite products, it was used VueJS for the front-end and backend APIs with PHP.\n\nBy **2020**, we had successfully established three specialized product-focused teams. I contributed to adapting company-wide OKRs into our development processes, ensuring alignment and efficiency. A major technical challenge during this time was developing a new checkout process to support the launch of a digital subscription product, offering exclusive benefits to customers. This initiative required designing a seamless, high-performance user experience while integrating complex subscription management features. The project also involved optimizing payment processing workflows and ensuring compatibility with existing e-commerce infrastructure.\n\nDuring this time, I also advocated for Agile practices across departments, introducing Scrum, Kanban, retrospectives, and Specification by Example to improve workflows in logistics and customer service. Additionally, I provided Git training to enhance version control practices.\n\nIn **2021**, my role evolved as the team continued to grow. I became a mentor to other developers, participated in hiring interviews, and led a product team focused on synchronizing the e-commerce platform with the company’s ERP. We refactored the ERP connector, introducing Lean and XP practices for shorter development cycles and adopting Domain-Driven Design (DDD) and Test-Driven Development (TDD) to improve product quality and alignment.\n\nFollowing organizational changes in **2022**, I transitioned to leading a team dedicated to customer service tools, including integrations between the e-commerce platform and the CRM. I provided strong support to the Product Owner while delivering solutions for managing orders, returns, and product reviews. With this projects we specially focused in the user experience of both customers and and our customer service team, technically speaking we introduced the usage of web components to have a reusable set of components to be used on other products.\n\nIn **2023**, the company explored entering the B2B market, which involved migrating the e-commerce platform to Shopify. I led the technical decoupling of the warehouse management application from the e-commerce platform, internalizing a previously outsourced project. This effort included implementing a messaging queue system with Amazon SQS, conducting Event Storming workshops, and shifting toward an Event-Driven Architecture. Despite the eventual cancellation of the Shopify migration, the decoupling ensured the warehouse application remained unaffected and functional.\n\nDuring **2024**, we focused on iterating and enhancing the warehouse application, improving its UX, integrating new carriers, and strengthening order tracking. I fostered a culture of documentation and standardization, consolidating application documentation and establishing team coding standards. Additionally, I initiated a project for B2B order management using the existing queue-based architecture. Although the project was ultimately paused due to layoffs, it demonstrated the potential of AsyncAPI for automated documentation and cross-channel order ingestion.\n\nThis period highlights my growth as a technical leader, my ability to adapt to changing business needs, and my contributions to scaling teams, improving workflows, and delivering high-quality technical solutions."
+              }
+            ],
+            "competences": [
+              {
+                "name": "AWS",
+                "type": "technology"
+              },
+              {
+                "name": "Amazon SQS",
+                "type": "technology"
+              },
+              {
+                "name": "Cypress",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              },
+              {
+                "name": "Prestashop",
+                "type": "technology"
+              },
+              {
+                "name": "RabbitMQ",
+                "type": "technology"
+              },
+              {
+                "name": "SQL",
+                "type": "technology"
+              },
+              {
+                "name": "Socket.io",
+                "type": "technology"
+              },
+              {
+                "name": "Symfony",
+                "type": "technology"
+              },
+              {
+                "name": "Twig",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "Vue",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Grupo GFT",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/01/01/e0a29cff-8c00-4fc1-9824-6f992787665b_linkedin-photo-11901.linkedin-photo-11901",
+            "alt": "24/01/01/e0a29cff-8c00-4fc1-9824-6f992787665b_linkedin-photo-11901.linkedin-photo-11901"
+          }
+        },
+        "roles": [
+          {
+            "name": "Senior Frontend Developer",
+            "startDate": "2017-01-01",
+            "finishDate": "2019-03-31",
+            "challenges": [
+              {
+                "description": "In 2017, I joined a team developing a new application for a real state company using Angular 4. My role primarily focused on frontend development, but I occasionally worked on backend tasks using Java and Hibernate. Starting with limited experience in these technologies, I quickly adapted and took on greater responsibilities, becoming proficient in Angular and testing with Nightwatch.js. The team leveraged Jenkins for CI/CD and Jira for project management, ensuring smooth and efficient workflows. Additionally, we used Angular components to create a mobile application with Ionic, allowing me to expand my skills into hybrid mobile development\n\nBy 2018, I transitioned to a new project, maintaining and improving a Deutsche Bank application designed for asset managers. My work centered on two microfrontends within a Backbase-based platform. A key achievement during this time was leading the migration from SVN to Git, modernizing the team’s version control processes. Collaborating closely with the Product Owners, I implemented new features to meet business requirements while ensuring high-quality standards. Working in a strictly frontend-focused team, I embraced Scrum practices with three-week sprints, collaborating with the Scrum Master to improve team performance and Agile practices. Deployment processes were managed through TeamCity, further enhancing the project’s technical efficiency.\n\nThese experiences allowed me to grow from a junior role into a senior position, demonstrating my ability to adapt to new technologies, take on leadership responsibilities, and contribute to both technical and organizational success.\n"
+              }
+            ],
+            "competences": [
+              {
+                "name": "Angular2+",
+                "type": "technology"
+              },
+              {
+                "name": "AngularJS",
+                "type": "technology"
+              },
+              {
+                "name": "Bitbucket",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Jenkins",
+                "type": "technology"
+              },
+              {
+                "name": "Jira",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "TeamCity",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "WebComponents",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "BIC Graphic Europe",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/12/08/fff76151-5d2a-4eb4-8ff9-cf49626fc38e_bg_vert_logo-copy.jpg",
+            "alt": "BG_vert_logo-copy.jpg"
+          },
+          "URL": "https://www.bicgraphic.com"
+        },
+        "roles": [
+          {
+            "name": "Web Developer",
+            "startDate": "2013-12-01",
+            "finishDate": "2017-01-31",
+            "challenges": [
+              {
+                "description": "Desarrollo y mantenimiento aplicación interna en Symfony2 a nivell front i backend. Symfony, SQL, DoctrineORM.\nDesarrollo y mantenimiento paginas web comercio electrònico PrestaShop\nDesarollo de proyectos en AngularJS"
+              }
+            ],
+            "competences": [
+              {
+                "name": "AngularJS",
+                "type": "technology"
+              },
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              },
+              {
+                "name": "Redis",
+                "type": "technology"
+              },
+              {
+                "name": "SQL",
+                "type": "technology"
+              },
+              {
+                "name": "SQLServer",
+                "type": "technology"
+              },
+              {
+                "name": "Symfony",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Telecomunicaciones Mediterranea Baix Camp, SL",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/12/08/ef612b4b-fd53-4a70-b14f-ee52c43fe19c_tmbc.png",
+            "alt": "tmbc.png"
+          }
+        },
+        "roles": [
+          {
+            "name": "Webdeveloper",
+            "startDate": "2010-11-01",
+            "finishDate": "2013-11-30",
+            "challenges": [
+              {
+                "description": "Developing websites at front and backend levels using technologies such as html5, JavaScript, PHP, CSS3. MySQL.\n\nAlso doing tasks as a sysadmin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Club Atletisme Tarragona",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/12/08/539efef0-ea8a-4b8c-990f-2f38d6425a80_gj7znuuz_400x400.jpg",
+            "alt": "GJ7ZNUuz_400x400.jpg"
+          },
+          "URL": "https://clubatletismetarragona.cat"
+        },
+        "roles": [
+          {
+            "name": "Track & Field School Coordinator",
+            "startDate": "2009-09-01",
+            "finishDate": "2012-06-30",
+            "challenges": [
+              {
+                "description": "Organitzación y coordinación de los diferentes grupos de trabajo, calendario ..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Ajuntament de Salou"
+        },
+        "roles": [
+          {
+            "name": "Técnico deportivo",
+            "startDate": "2009-01-01",
+            "finishDate": "2010-01-01",
+            "challenges": [
+              {
+                "description": "Entrenador de atletismo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "TEGASA Técnica Ganadera, S.L.",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/12/08/5c40e0f4-f31e-4c71-9335-cb306fcc1e5c_208dfea1a86af4563e16.jpg",
+            "alt": "208dfea1a86af4563e1604b98f19d42d.jpg"
+          }
+        },
+        "roles": [
+          {
+            "name": "Técnico de laboratorio",
+            "startDate": "2008-01-01",
+            "finishDate": "2008-09-30",
+            "challenges": [
+              {
+                "description": "Técnico de laboratorio, realización de análisis en el departamento de microbiologia y química."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Freelance Web Developer"
+        },
+        "roles": [
+          {
+            "name": "Desenvolupador web",
+            "startDate": "2008-01-01",
+            "finishDate": "2010-01-01",
+            "challenges": [
+              {
+                "description": "Programación diseño y maquetación de páginas para clientes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "details": {
+          "name": "Club Atletisme Tarragona",
+          "description": "My personal lab, here is were all started. \n\nWhen I was 16, with php version 4 and a MVC approach I started coding as a hobby, when I finished my studies of \"health environment\" and after working in labs, I decided to make a change in my career, with the experience gained here.\n\nThe project still evolving, added symfony 2, migrate from a MVC to hexagonal architecture, introducing testing, created a custom CSS framework using LESS (what a time!), web components ... and currently introducing queue system for a mailing list.",
+          "URL": "https://clubatletismetarragona.cat"
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2000-12-01",
+            "competences": [
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "Less CSS",
+                "type": "technology"
+              },
+              {
+                "name": "MySQL",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              },
+              {
+                "name": "Sass",
+                "type": "technology"
+              },
+              {
+                "name": "Symfony",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publicArtifacts": [
+      {
+        "details": {
+          "name": "Learn With Freshly: Tacking Complexity",
+          "description": "In this session, we shared how we established a dedicated team to address one of the IT department's most critical challenges: integrating our e-commerce platform with the ERP system, a problem that significantly impacted maintenance and reliability.\n\nWe explained our approach to tackling this complex project, starting with setting the foundation for a new architecture based on the ports and adapters (hexagonal) model. This architecture ensured better separation of concerns, scalability, and long-term maintainability.\n\nAdditionally, we emphasized the role of Test-Driven Development (TDD) practices in guiding the implementation. By leveraging TDD, we built a robust and reliable integration layer while fostering a culture of quality and collaboration.\n\nThe presentation highlighted key lessons learned, challenges faced, and how this initiative has not only solved a pressing issue but also laid the groundwork for more resilient systems and practices across the IT department."
+        },
+        "type": "talk",
+        "publishingDate": "2022-02-01",
+        "tags": [
+          "architecture"
+        ],
+        "relatedCompetences": [
+          {
+            "name": "SQL",
+            "type": "technology"
+          },
+          {
+            "name": "Symfony",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Learn With Freshly: Telling better Stories",
+          "description": "This session focused on the art of crafting better user stories, starting with an introduction to what user stories are and their importance in agile development. We covered how to write them effectively, emphasizing the use of techniques like Gherkin language and Behavior-Driven Development (BDD) to ensure clarity and alignment.\n\nThe discussion included practical guidance on splitting user stories vertically to deliver value incrementally and how to leverage story mapping as a tool to visualize and prioritize features.\n\nTailored for the product team, the session aimed to equip them with the skills to write meaningful user stories and collaborate more effectively with developers, fostering a stronger partnership and better outcomes for the entire team."
+        },
+        "type": "talk",
+        "publishingDate": "2020-05-01",
+        "tags": [
+          "product"
+        ]
+      },
+      {
+        "details": {
+          "name": "Learn With Freshly: Embracing Change",
+          "description": "We presented a session on embracing change, starting with an overview of the history of agile methodologies. The discussion focused on how our development team works with Scrum, emphasizing its core principles and practices.\n\nWe also explored how we have evolved Scrum to fit the unique context and needs of each team. By adapting agile methodologies, we’ve fostered greater flexibility and alignment with specific team dynamics, ensuring that the approach supports both productivity and continuous improvement.\n\nThe session aimed to inspire participants to embrace change as a driver of innovation and to leverage agile practices as a framework for adaptable and effective teamwork."
+        },
+        "type": "talk",
+        "publishingDate": "2020-03-01",
+        "tags": [
+          "agile"
+        ]
+      },
+      {
+        "details": {
+          "name": "Learn With Freshly: Retrospectives",
+          "description": "Conducted a small workshop to explore the concept of retrospectives. The session aimed to explain what retrospectives are, their purpose, and how they benefit development teams.\n\nThe workshop highlighted how retrospectives serve as a tool for continuous improvement, fostering team cohesion and providing valuable feedback for projects. Through practical examples and discussions, participants gained insights into how to effectively implement retrospectives, identify areas for growth, and enhance collaboration within the team.\n\nBy the end of the session, attendees understood the importance of retrospectives in creating a culture of reflection and improvement, ultimately driving better outcomes for both the team and the project."
+        },
+        "type": "talk",
+        "publishingDate": "2019-12-01",
+        "tags": [
+          "agile"
+        ]
+      },
+      {
+        "details": {
+          "name": "2019",
+          "description": "Git basics & workflows",
+          "URL": "https://www.slideshare.net/DdacRios/improving-your-workflow-with-git?next_slideshow=true",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/12/08/61788364-efba-4dae-8110-5a7789feced8_tgndevs.jpg",
+            "alt": "tgndevs.jpg"
+          }
+        },
+        "type": "talk",
+        "publishingDate": "2019-06-01",
+        "tags": [
+          "Meetup"
+        ],
+        "relatedCompetences": [
+          {
+            "name": "Git",
+            "type": "technology"
+          },
+          {
+            "name": "Gitflow",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Primer premio URV Codeathon 2016",
+          "description": "Proyecto *\"oGoose - Construimos el conocimiento del futuro\"*. oGoose es un prototipo de solución para incentivar la colaboración entre universitarios y expertos de diferentes ámbitos en proyectos de investigación siguiendo la filosofía Open Acces.",
+          "URL": "https://github.com/didacrios/CodeathonURV2016_OpenURV",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/11/13/e74acfbd-d10a-4ab4-908d-7f5d9e2f7e6a_ogoose-logo.png",
+            "alt": "ogoose-logo.png"
+          }
+        },
+        "type": "achievement",
+        "publishingDate": "2016-02-01",
+        "tags": [
+          "Hackathon"
+        ],
+        "relatedCompetences": [
+          {
+            "name": "Bootstrap",
+            "type": "technology"
+          },
+          {
+            "name": "Doctrine",
+            "type": "technology"
+          },
+          {
+            "name": "PHP",
+            "type": "technology"
+          },
+          {
+            "name": "Symfony",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Project of the Year, BIC Graphic SA, 2015",
+          "description": "Webfusion. Unir las diferentes plataformas web del grup BIC Graphic Europe, integrando los diferentes sistemas internos, los productos, para ofrecer una pagina web moderna y funcionar para todos nuestros distribuidores.",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/12/08/2bf4a2df-bbb6-43f4-b0f4-217b42a37bac_bg_vert_logo-copy.jpg",
+            "alt": "BG_vert_logo-copy.jpg"
+          }
+        },
+        "type": "achievement",
+        "publishingDate": "2015-12-01",
+        "tags": [
+          "Project"
+        ],
+        "relatedCompetences": [
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "Java",
+            "type": "technology"
+          },
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          },
+          {
+            "name": "SQL",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "“Team of the Year”, BIC Graphic SA, 2014",
+          "description": "Al equipo “Webservice Team”, por el trabajo realizado con la aplicacion interna uniendo toda la documentacion de los diferentes departamentos de la empresa en una única plataforma accessible para todos los trabajadores.",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/12/08/05a06f5f-2182-43b5-9941-41a1c13879eb_bg_vert_logo-copy.jpg",
+            "alt": "BG_vert_logo-copy.jpg"
+          }
+        },
+        "type": "achievement",
+        "publishingDate": "2014-12-01",
+        "tags": [
+          "Team"
+        ],
+        "relatedCompetences": [
+          {
+            "name": "PHP",
+            "type": "technology"
+          },
+          {
+            "name": "SQLServer",
+            "type": "technology"
+          },
+          {
+            "name": "Symfony",
+            "type": "technology"
+          },
+          {
+            "name": "Twig",
+            "type": "technology"
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "CA",
+        "fullName": "Catalán / Valenciano",
+        "level": "Native or bilingual proficiency"
+      },
+      {
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Full professional proficiency"
+      },
+      {
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "AWS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Amazon SQS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Angular2+",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Docker",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Java",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Jenkins",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PHP",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "RabbitMQ",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Sass",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Symfony",
+          "type": "technology"
+        }
+      }
+    ],
+    "studies": [
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "CFGS Salut Medioambiental",
+        "startDate": "2005-09-01",
+        "institution": {
+          "name": "Generalitat de Catalunya"
+        },
+        "finishDate": "2007-05-01"
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "Comunicación entre microservicios: Event-Driven Architecture",
+        "startDate": "2022-05-01",
+        "institution": {
+          "name": "Codely",
+          "description": "Con este curso aprenderás a definir tu estructura de colas ya sea con RabbitMQ o en AWS, y gestionar los problemas derivados del consumo de eventos para que puedas empezar a migrar porciones de tu monolito a pequeños servicios autónomos y escalables.\n",
+          "URL": "http://pro.codely.com/library/comunicacion-entre-microservicios-event-driven-architecture-35834/"
+        },
+        "finishDate": "2022-05-01",
+        "linkedCompetences": [
+          {
+            "name": "AWS",
+            "type": "technology"
+          },
+          {
+            "name": "RabbitMQ",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "DDD en PHP",
+        "startDate": "2024-04-01",
+        "institution": {
+          "name": "Codely",
+          "description": "Crea paso a paso tu aplicación PHP siguiendo Domain-Driven Design. Desde la estructura inicial de carpetas, hasta la implementación de los mappings con base de datos, pasando por la configuración de los tests de aceptación y unitarios, publicación de eventos, y mucho más 🤟\n",
+          "URL": "https://codely.com/cursos/ddd-en-php_bk6k"
+        },
+        "finishDate": "2024-04-01",
+        "linkedCompetences": [
+          {
+            "name": "Doctrine",
+            "type": "technology"
+          },
+          {
+            "name": "Hibernate",
+            "type": "technology"
+          },
+          {
+            "name": "Laravel",
+            "type": "technology"
+          },
+          {
+            "name": "PHP",
+            "type": "technology"
+          },
+          {
+            "name": "PHPunit",
+            "type": "technology"
+          },
+          {
+            "name": "RabbitMQ",
+            "type": "technology"
+          },
+          {
+            "name": "Twig",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "Modelado del dominio: Eventos de Dominio",
+        "startDate": "2024-04-01",
+        "institution": {
+          "name": "Codely",
+          "description": "Domina los Eventos de Dominio en el diseño de software y haz tus aplicaciones más mantenibles, escalables y testables. Aprende a definir tus eventos con precisión, sin problemas comunes de rendimiento, y amplía tus habilidades en Arquitectura de Software.\n",
+          "URL": "http://pro.codely.com/library/modelado-del-dominio-eventos-de-dominio-209046/"
+        },
+        "finishDate": "2024-04-01"
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "Modelado del dominio: Value Objects",
+        "startDate": "2024-03-01",
+        "institution": {
+          "name": "Codely",
+          "description": "El patrón Value Object es uno de los más conocidos, pero también uno de los más odiados. En el curso vemos cómo sacarle todo el partido y cómo facilitar su uso para convertir en amor ese odio. 😬\n",
+          "URL": "http://pro.codely.com/library/modelado-del-dominio-value-objects-201826/"
+        },
+        "finishDate": "2024-03-01",
+        "linkedCompetences": [
+          {
+            "name": "PHP",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "Principios SOLID aplicados",
+        "startDate": "2021-06-01",
+        "institution": {
+          "name": "Codely",
+          "description": "Si ya sabes desarrollar software, pero quieres ir un paso más allá y mejorar la calidad de tu código, este es tu curso. Consigue desarrollar software fácil de mantener, desacoplado, y tolerante a cambios con los principios SOLID. Aprenderás de forma práctica, amena, y con ejemplos de código 🤘\n",
+          "URL": "http://pro.codely.com/library/principios-solid-aplicados-36875/"
+        },
+        "finishDate": "2021-06-01"
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "Refactoring de Code Smells a Clean Code: Bloaters",
+        "startDate": "2022-02-01",
+        "institution": {
+          "name": "Codely",
+          "description": "Aprende a detectar y lidiar con código incomprensible. Curso centrado en Code Smells de tipo Bloater (los que hacen que tengamos ficheros con cientos de líneas y condicionales locos) 🤟",
+          "URL": "http://pro.codely.com/library/refactoring-de-code-smells-a-clean-code-bloaters-62290/"
+        },
+        "finishDate": "2022-02-01"
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "Testing: Introducción y buenas prácticas",
+        "startDate": "2022-06-01",
+        "institution": {
+          "name": "Codely",
+          "description": "Aprende qué aporta el testing, cómo testear y buenas prácticas para evitar que mantener tus tests sea un infierno con ejemplos de El Mundo Real™️🤟\nCurso con ejemplos prácticos y al grano donde aprenderás los distintos tipos de tests que usamos en nuestro día a día, estrategias y patrones de diseño que nos ayudarán a hacer nuestros tests más fácilmente mantenibles y tolerantes al cambio.",
+          "URL": "http://pro.codely.com/library/testing-introduccion-y-buenas-practicas-44653/"
+        },
+        "finishDate": "2022-06-01",
+        "linkedCompetences": [
+          {
+            "name": "Java",
+            "type": "technology"
+          },
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          },
+          {
+            "name": "PHP",
+            "type": "technology"
+          },
+          {
+            "name": "Scala",
+            "type": "technology"
+          }
+        ]
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Continuous learning",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Proactivity",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Team player",
+          "type": "practice"
+        }
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "URL": "https://linkedin.com/in/didacrios",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/didacrios",
+          "type": "github"
+        }
+      ]
+    },
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "Flutter",
+          "type": "technology"
+        },
+        {
+          "name": "Go",
+          "type": "technology"
+        },
+        {
+          "name": "Kotlin",
+          "type": "technology"
+        },
+        {
+          "name": "NodeJS",
+          "type": "technology"
+        },
+        {
+          "name": "PHP",
+          "type": "technology"
+        },
+        {
+          "name": "Python",
+          "type": "technology"
+        },
+        {
+          "name": "Redis",
+          "type": "technology"
+        },
+        {
+          "name": "Ruby on Rails",
+          "type": "technology"
+        },
+        {
+          "name": "Scala",
+          "type": "technology"
+        },
+        {
+          "name": "Vue",
+          "type": "technology"
+        },
+        {
+          "name": "WebComponents",
+          "type": "technology"
+        }
+      ],
+      "discardedCompetences": [
+        {
+          "name": "Cobol",
+          "type": "technology"
+        }
+      ],
+      "preferredRoles": [
+        "Backend Developer",
+        "DevOps & Infrastructure & SRE",
+        "Full-stack Developer",
+        "Tech Lead"
+      ]
+    },
+    "status": "searchingActively",
+    "requirements": {
+      "contractTypes": [
+        "permanent"
+      ]
+    }
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "Docker",
+        "type": "technology"
+      },
+      {
+        "name": "JavaScript",
+        "type": "technology"
+      },
+      {
+        "name": "PHP",
+        "type": "technology"
+      },
+      {
+        "name": "RabbitMQ",
+        "type": "technology"
+      },
+      {
+        "name": "SQL",
+        "type": "technology"
+      }
+    ],
+    "desiredJobDescription": "I thrive in collaborative environments where teamwork is essential, and I value opportunities to contribute to products that make a difference. I’m passionate about implementing and promoting strong engineering practices, particularly those rooted in Lean and XP methodologies. \n\nWhether working with legacy code or building new projects from scratch, I enjoy tackling challenges, solving problems, and delivering solutions that optimize workflows and improve the efficiency of others.",
+    "goodPractices": "In my work, I adhere to best practices that ensure quality and adaptability across projects. I consistently apply SOLID principles and prioritize clean code standards, maintaining clarity and scalability in my codebase. I believe in adapting architectural choices to the specific needs of each project rather than being bound to a single model. Testing is fundamental in my workflow; I define each story's 'definition of done' based on acceptance criteria and implement comprehensive automated testing. This approach not only ensures code reliability but also facilitates smoother, more predictable development and deployment cycles",
+    "projects": [
+      {
+        "name": "Club Atletisme Tarragona"
+      }
+    ]
+  }
+}
