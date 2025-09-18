@@ -36,6 +36,40 @@
     "jobs": [
       {
         "organization": {
+          "name": "Apricode Tech",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/25/09/18/b23514c9-e311-43cf-bae2-589c47377de5_act-white-logo-1980x.png",
+            "alt": "ACT-white-logo-1980x1980.png"
+          },
+          "URL": "https://apricodetech.com"
+        },
+        "roles": [
+          {
+            "name": "Senior Fullstack Developer",
+            "startDate": "2025-02-01",
+            "competences": [
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "nestJS",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "Freshly Cosmetics",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/01/01/c4e01e03-82b2-471a-9727-07e79b0dc999_linkedin-photo-11901.linkedin-photo-11901",
