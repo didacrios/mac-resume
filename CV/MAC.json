@@ -47,6 +47,11 @@
           {
             "name": "Senior Fullstack Developer",
             "startDate": "2025-02-01",
+            "challenges": [
+              {
+                "description": "I transitioned into an individual contributor role, focusing on backend development while working with TypeScript and ReactJS in a modular monolithic application. The system, built on a Hexagonal Architecture and Domain-Driven Design (DDD) principles, is progressively evolving toward a CQRS model as we expand its capabilities.\n\nI contribute to the migration and modernization of a warehouse management application (WMS) for a German sports company, which handles order preparation and B2B distribution. My work involves implementing new features, refactoring core modules, and ensuring scalability and maintainability through clean architectural patterns.\n\nThis role has allowed me to deepen my expertise in backend-oriented design and architecture while maintaining a fullstack perspective, applying modern practices and stack to deliver robust and domain-aligned solutions for a critical logistics platform."
+              }
+            ],
             "competences": [
               {
                 "name": "NodeJS",
