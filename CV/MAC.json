@@ -897,6 +897,10 @@
           "type": "technology"
         },
         {
+          "name": "TypeScript",
+          "type": "technology"
+        },
+        {
           "name": "Vue",
           "type": "technology"
         },
